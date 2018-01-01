@@ -17,3 +17,5 @@ for line in handle_data:
         count = count + 1
 average = float(new_line/count)
 print ("Average spam confidence:", average)
+
+print("Nick rocks")
