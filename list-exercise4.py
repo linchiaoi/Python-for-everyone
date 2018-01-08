@@ -17,12 +17,12 @@ for line in reading:
         if i in new_list:
             continue
         else:
-            new_list + [i]
-    print (new_list)
+            new_list.append(i)
+#print (new_list)
             
             
 
-P = new_list.sort()
-print(P)
+new_list.sort()
+print(new_list)
 
     
